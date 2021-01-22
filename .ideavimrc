@@ -1,0 +1,36 @@
+" -------------------------------------------------------------------------- "
+"  " My config for use as a backend for VSCode and system configuration."    "
+" -------------------------------------------------------------------------- "
+
+" context free things
+set shell=/bin/bash
+
+" much more convenient leader
+let mapleader = "\<Space>"
+
+" Jump to start and end of line using the home row keys
+map H ^
+map L $
+
+" Quick-save
+nmap <leader>w :w<CR>
+
+" Quickly insert an empty new line without entering insert mode
+" (uses mark o to return to the previous cursor column)
+nnoremap <Leader>O moO<Esc>`o
+nnoremap <Leader>o moo<Esc>`o
+
+" No arrow keys --- force yourself to use the home row
+nnoremap <up> <nop>
+nnoremap <down> <nop>
+inoremap <up> <nop>
+inoremap <down> <nop>
+inoremap <left> <nop>
+inoremap <right> <nop>
+
+set relativenumber
+set number
+
+:map <leader>f <Action>(ReformatCode)
+:map <leader><leader> <Action>(Back)
+:map <leader>w <Action>(CloseEditor)
