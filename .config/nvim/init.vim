@@ -20,3 +20,11 @@ nnoremap <Leader>o moo<Esc>`o
 " relative line numbering 
 set relativenumber
 set number
+
+
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+set noexpandtab
+set smartindent
+set smarttab
