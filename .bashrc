@@ -116,7 +116,7 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# cargo crate in path
+# cargo crates in path
 source "$HOME/.cargo/env"
 
 # shell script for broot
