@@ -1,5 +1,5 @@
 " "My config for system configuration, meaning for editing a file here and"
-" "there, I don't use Neovim for development"
+" "there, I don't use Neovim for development" - Shane
 
 
 
