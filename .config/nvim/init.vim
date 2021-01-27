@@ -88,6 +88,3 @@ set noshowmode
 " (supposedly) hide file write status, currently does not hide write status
 " hence the silent on :18
 set shortmess+=F
-
-
-
