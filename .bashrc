@@ -116,6 +116,12 @@ if ! shopt -oq posix; then
 	fi
 fi
 
+#----------------------------------MY CONFIG----------------------------------#
+
+########################
+#  Application Config  #
+########################
+
 # cargo crates in path
 source "$HOME/.cargo/env"
 
@@ -127,6 +133,20 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
+# hadoop pdsh underlying protocol, was rsh
+export PDSH_RCMD_TYPE=ssh
+
+
+
+########################
+#       Aliases        #
+########################
+
+
 # alias for dotfiles management
 alias dot='/usr/bin/git --git-dir=/home/shane/.dotrepo/ --work-tree=/home/shane'
-export PDSH_RCMD_TYPE=ssh
+
+# easy editing of often fiddled with dotfiles
+alias ebsh='vim ~/.bashrc'
+alias evim='vim ~/.config/nvim/init.vim'
+
