@@ -75,9 +75,12 @@ set number
 " syntax highlighting
 syntax on
 
-" set colorscheme of nvim and airlign to onedark
-colorscheme onedark
+" set colorscheme of nvim and airlign to onedark, italic comments enabled, no
+" eob ~'s
+let g:onedark_terminal_italics=1
+let g:onedark_hide_endofbuffer=1
 let g:airline_theme='onedark'
+colorscheme onedark
 
 " hide mode status since airline shows it
 set noshowmode
