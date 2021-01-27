@@ -82,6 +82,11 @@ let g:onedark_hide_endofbuffer=1
 let g:airline_theme='onedark'
 colorscheme onedark
 
+" transparency, must be set after setting colorscheme otherwise it will be
+" overridden
+highlight Normal ctermbg=none
+highlight NonText ctermbg=none
+
 " hide mode status since airline shows it
 set noshowmode
 
