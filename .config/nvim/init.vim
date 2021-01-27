@@ -4,7 +4,7 @@
 
 
 " ----------------------------------"
-"   		 "Keybinds"             "
+"            "Keybinds"             "
 " ----------------------------------"
 
 " much more convenient leader
@@ -25,7 +25,7 @@ nnoremap <Leader>o moo<Esc>`o
 
 
 " ----------------------------------"
-"   		 "Behavior"             "
+"            "Behavior"             "
 " ----------------------------------"
 
 " per option 4 of http://vimdoc.sourceforge.net/htmldoc/options.html#'tabstop'
@@ -46,7 +46,7 @@ set smarttab
 
 
 " ----------------------------------"
-"   		 "Plugins"              "
+"            "Plugins"              "
 " ----------------------------------"
 
 " default location for user data according to XDG Base Directory Specification
@@ -63,7 +63,7 @@ call plug#end()
 
 
 " ----------------------------------"
-"   		 "Visuals"              "
+"             "Visuals"             "
 " ----------------------------------"
 
 " relative line numbering
