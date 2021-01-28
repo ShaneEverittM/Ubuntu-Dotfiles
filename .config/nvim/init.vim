@@ -8,7 +8,7 @@
 " ----------------------------------"
 
 " much more convenient leader
-let mapleader = "\<Space>"
+let mapleader="\<Space>"
 
 " Jump to start and end of line using the home row keys
 map H ^
