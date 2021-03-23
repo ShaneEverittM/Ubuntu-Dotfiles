@@ -117,6 +117,8 @@ if ! shopt -oq posix; then
 fi
 
 #----------------------------------MY CONFIG----------------------------------#
+ 
+export PATH=$PATH:/home/shane/.local/bin
 
 ########################
 #  Application Config  #
