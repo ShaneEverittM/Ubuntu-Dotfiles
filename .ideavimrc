@@ -5,8 +5,15 @@ source ~/.config/nvim/init.vim
 
 " Actions 
 :map <leader>f <Action>(ReformatCode)
-:map <leader>e <Action>(SearchEverywhere)
 :map <leader>q <Action>(CloseEditor)
+
+" Various tabs of the search everywhere menu
+:map <leader>e <Action>(SearchEverywhere)
+:map <leader>c <Action>(GotoClass)
+:map <leader>n <Action>(GotoFile)
+:map <leader>s <Action>(GotoSymbol)
+:map <leader>a <Action>(GotoAction)
+
 
 " Hover pop-ups 
 :map ge <Action>(ShowErrorDescription)
