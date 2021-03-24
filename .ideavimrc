@@ -2,6 +2,16 @@
 source ~/.config/nvim/init.vim
 
 " IDE specific binds
+
+" Actions 
 :map <leader>f <Action>(ReformatCode)
-:map <leader><leader> <Action>(Back)
+:map <leader>e <Action>(SearchEverywhere)
 :map <leader>q <Action>(CloseEditor)
+
+" Hover pop-ups 
+:map ge <Action>(ShowErrorDescription)
+:map gi <Action>(QuickJavaDoc)
+
+" Movement 
+:map gd <Action>(GotoDeclaration)
+:map <leader><leader> <Action>(Back)
