@@ -6,6 +6,8 @@ source ~/.config/nvim/init.vim
 " Actions 
 :map <leader>f <Action>(ReformatCode)
 :map <leader>q <Action>(CloseEditor)
+:map <leader>r <Action>(Run)
+:map <leader>d <Action>(Debug)
 
 " Various tabs of the search everywhere menu
 :map <leader>e <Action>(SearchEverywhere)
